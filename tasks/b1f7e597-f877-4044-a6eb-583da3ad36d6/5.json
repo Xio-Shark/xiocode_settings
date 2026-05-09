@@ -1,0 +1,8 @@
+{
+  "id": "5",
+  "subject": "建立高区分度任务模板（L1-L4各维度）",
+  "description": "建立高区分度任务模板：L1多模块工程、L2跨文件bug定位、L3最小补丁+回归、L4多轮指令遵循",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

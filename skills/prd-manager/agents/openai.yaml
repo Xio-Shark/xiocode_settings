@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD 管理器"
+  short_description: "管理 docs/prd 目录下的项目需求文档（PRD）。当用户需要创建、查看或管理产品需求文档…"
+  default_prompt: "使用 $prd-manager 帮我处理这个需求：管理 docs/prd 目录下的项目需求文档（PRD）。当用户需要创建、查看或管理产品需求文档…"
+
+policy:
+  allow_implicit_invocation: true

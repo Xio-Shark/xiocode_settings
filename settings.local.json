@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(rtk ls *)",
+      "Bash(rtk find *)",
+      "Bash(mkdir -p ~/.claude/ccline)",
+      "Bash(cp CCometixLine/target/release/ccometixline ~/.claude/ccline/ccline)",
+      "Bash(chmod +x ~/.claude/ccline/ccline)"
+    ]
+  }
+}

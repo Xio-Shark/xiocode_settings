@@ -1,0 +1,22 @@
+# Runtime data
+projects/
+plugins/
+telemetry/
+cache/
+debug/
+file-history/
+sessions/
+session-env/
+shell-snapshots/
+paste-cache/
+backup/
+backups/
+
+# Sensitive / ephemeral
+history.jsonl
+scheduled_tasks.lock
+*.bak
+*.bak-*
+
+# System files
+.DS_Store

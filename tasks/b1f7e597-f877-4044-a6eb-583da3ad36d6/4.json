@@ -1,0 +1,8 @@
+{
+  "id": "4",
+  "subject": "建立基于实测数据的难度标定机制",
+  "description": "用实测数据校准难度标签：pass rate/mean/标准差/gap/失败分类/中位时间/flakiness",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

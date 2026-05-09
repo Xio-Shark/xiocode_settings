@@ -1,0 +1,59 @@
+{
+    "mcpServers": {
+        "gitnexus": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "gitnexus@latest",
+                "mcp"
+            ]
+        },
+        "context7": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp",
+                "--api-key",
+                "ctx7sk-76c3f662-bf51-4285-aaa0-7f917fb56137"
+            ],
+            "type": "stdio"
+        },
+        "shadcn": {
+            "command": "npx",
+            "args": [
+                "shadcn@latest",
+                "mcp"
+            ]
+        },
+        "genericagent-browser": {
+            "command": "python3",
+            "args": [
+                "/Users/xioshark/Downloads/GenericAgent-main/mcp_bridge.py"
+            ],
+            "env": {},
+            "type": "stdio",
+            "timeout": 120000
+        },
+        "omc": {
+            "command": "node",
+            "args": [
+                "/Users/xioshark/.npm-global/lib/node_modules/oh-my-claude-sisyphus/bridge/mcp-server.cjs"
+            ],
+            "type": "stdio"
+        },
+        "code-agent-insights": {
+            "command": "/Users/xioshark/.local/share/pnpm/cai-mcp",
+            "args": [],
+            "env": {},
+            "type": "stdio",
+            "timeout": 60000
+        },
+        "personal-kb": {
+            "command": "python3",
+            "args": [
+                "/Users/xioshark/Desktop/know/pageindex-rag/kb_mcp_server.py"
+            ],
+            "type": "stdio"
+        }
+    }
+}

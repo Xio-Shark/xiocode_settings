@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Add TypeScript/Node tasks across L1-L4 (target 12+ tasks)",
+  "description": "Create TypeScript tasks covering L1 (API/server implementation), L2 (bug finding), L3 (bug fixing), L4 (multi-turn refactoring). Need ~12 tasks to reach 15% language share.",
+  "activeForm": "Adding TypeScript/Node tasks",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

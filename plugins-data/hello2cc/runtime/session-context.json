@@ -1,0 +1,9 @@
+{
+  "68c1bfe9-45e6-4af1-a471-951e4c218bde": {
+    "mainModel": "gpt-5.4-high-fast",
+    "updatedAt": "2026-04-06T15:36:12.361Z",
+    "lastIntentProfile": {
+      "analysis_mode": "weak_request_shape"
+    }
+  }
+}

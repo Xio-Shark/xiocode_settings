@@ -1,0 +1,10 @@
+{
+  "env": {
+    "ENABLE_TOOL_SEARCH": "true",
+    "ANTHROPIC_AUTH_TOKEN": "PROXY_MANAGED",
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:15721"
+  },
+  "effortLevel": "high",
+  "model": "opus[1m]",
+  "skipDangerousModePermissionPrompt": true
+}
