@@ -2,11 +2,37 @@
   "permissions": {
     "allow": [
       "Bash(python3 -c ' *)",
-      "Bash(rtk ls *)",
-      "Bash(rtk find *)",
-      "Bash(mkdir -p ~/.claude/ccline)",
+      "Bash(rtk *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(wc -l *)",
+      "Bash(mkdir -p ~/.claude/*)",
       "Bash(cp CCometixLine/target/release/ccometixline ~/.claude/ccline/ccline)",
-      "Bash(chmod +x ~/.claude/ccline/ccline)"
+      "Bash(chmod +x ~/.claude/ccline/ccline)",
+      "Bash(which *)",
+      "Bash(npm info *)",
+      "Bash(env | grep *)",
+      "Bash(diff -rq *)",
+      "Bash(diff *)",
+      "Bash(rm -rf ~/.claude/skills/*)",
+      "Bash(python3 ./.trellis/scripts/get_context.py)",
+      "Bash(python3 ./.trellis/scripts/task.py *)",
+      "Read(/Users/xioshark/.claude/*)",
+      "Write(/Users/xioshark/.claude/*)",
+      "Edit(/Users/xioshark/.claude/*)",
+      "Read(/Users/xioshark/.npm-global/*)",
+      "Read(/Users/xioshark/Downloads/*)",
+      "Read(/Users/xioshark/Desktop/*)",
+      "Read(/tmp/*)",
+      "Bash(npx -y @upstash/context7-mcp *)",
+      "Bash(npx shadcn@latest mcp)",
+      "Bash(node ~/.npm-global/lib/node_modules/oh-my-claude-sisyphus/bridge/mcp-server.cjs)",
+      "Bash(/Users/xioshark/.local/share/pnpm/cai-mcp)",
+      "Bash(python3 /Users/xioshark/.claude/external/personal-kb-mcp.py)",
+      "Bash(pnpm dlx gitnexus@latest mcp)",
+      "Bash(python3 /Users/xioshark/.claude/external/genericagent-browser-mcp.py)"
     ]
   }
 }

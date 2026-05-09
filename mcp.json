@@ -1,9 +1,9 @@
 {
     "mcpServers": {
         "gitnexus": {
-            "command": "npx",
+            "command": "pnpm",
             "args": [
-                "-y",
+                "dlx",
                 "gitnexus@latest",
                 "mcp"
             ]
@@ -12,9 +12,7 @@
             "command": "npx",
             "args": [
                 "-y",
-                "@upstash/context7-mcp",
-                "--api-key",
-                "ctx7sk-76c3f662-bf51-4285-aaa0-7f917fb56137"
+                "@upstash/context7-mcp"
             ],
             "type": "stdio"
         },
@@ -28,7 +26,7 @@
         "genericagent-browser": {
             "command": "python3",
             "args": [
-                "/Users/xioshark/Downloads/GenericAgent-main/mcp_bridge.py"
+                "/Users/xioshark/.claude/external/genericagent-browser-mcp.py"
             ],
             "env": {},
             "type": "stdio",
@@ -51,7 +49,7 @@
         "personal-kb": {
             "command": "python3",
             "args": [
-                "/Users/xioshark/Desktop/know/pageindex-rag/kb_mcp_server.py"
+                "/Users/xioshark/.claude/external/personal-kb-mcp.py"
             ],
             "type": "stdio"
         }
