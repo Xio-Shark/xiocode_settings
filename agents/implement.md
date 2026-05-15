@@ -2,7 +2,15 @@
 name: implement
 description: |
   代码实现专家。阅读 spec 和需求后编写代码，遵循现有模式，不 over-engineering。禁止 git commit。
-tools: Read, Write, Edit, Bash, Glob, Grep, mcp__exa__web_search_exa, mcp__exa__get_code_context_exa
+tools:
+  Read: true
+  Write: true
+  Edit: true
+  Bash: true
+  Glob: true
+  Grep: true
+  mcp__exa__web_search_exa: true
+  mcp__exa__get_code_context_exa: true
 model: opus
 ---
 

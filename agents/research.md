@@ -2,7 +2,14 @@
 name: research
 description: |
   代码和调研专家。纯调研不修改代码。定位文件、理解逻辑、发现模式。不评价不批评。
-tools: Read, Glob, Grep, mcp__exa__web_search_exa, mcp__exa__get_code_context_exa, Skill, mcp__chrome-devtools__*
+tools:
+  Read: true
+  Glob: true
+  Grep: true
+  mcp__exa__web_search_exa: true
+  mcp__exa__get_code_context_exa: true
+  Skill: true
+  mcp__chrome-devtools__*: true
 model: opus
 ---
 

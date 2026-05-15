@@ -2,7 +2,15 @@
 name: debug
 description: |
   Bug 修复专家。精准定位问题、按 spec 修复、验证修复不引入新问题。不重构周边代码。
-tools: Read, Write, Edit, Bash, Glob, Grep, mcp__exa__web_search_exa, mcp__exa__get_code_context_exa
+tools:
+  Read: true
+  Write: true
+  Edit: true
+  Bash: true
+  Glob: true
+  Grep: true
+  mcp__exa__web_search_exa: true
+  mcp__exa__get_code_context_exa: true
 model: opus
 ---
 

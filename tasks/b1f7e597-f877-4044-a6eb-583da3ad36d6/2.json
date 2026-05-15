@@ -1,8 +1,0 @@
-{
-  "id": "2",
-  "subject": "加入对抗性、变形和属性测试",
-  "description": "加入对抗性测试：Property-based、Metamorphic、Fuzz、Differential、Mutation tests",
-  "status": "pending",
-  "blocks": [],
-  "blockedBy": []
-}

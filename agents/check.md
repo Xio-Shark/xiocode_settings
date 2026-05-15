@@ -2,7 +2,15 @@
 name: check
 description: |
   代码质量检查专家。对比 spec 审查未提交的代码变更，发现问题后直接修复，不是只报告。
-tools: Read, Write, Edit, Bash, Glob, Grep, mcp__exa__web_search_exa, mcp__exa__get_code_context_exa
+tools:
+  Read: true
+  Write: true
+  Edit: true
+  Bash: true
+  Glob: true
+  Grep: true
+  mcp__exa__web_search_exa: true
+  mcp__exa__get_code_context_exa: true
 model: opus
 ---
 

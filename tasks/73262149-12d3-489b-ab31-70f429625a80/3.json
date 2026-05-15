@@ -1,9 +1,0 @@
-{
-  "id": "3",
-  "subject": "Add L4 instruct tasks for Go, Rust, TypeScript, Java",
-  "description": "L4 is severely lacking (only 2 tasks). Need ~14 more multi-turn instruction tasks across languages: Go, Rust, TypeScript, Java/C++.",
-  "activeForm": "Adding L4 instruct tasks for Go, Rust, TypeScript",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

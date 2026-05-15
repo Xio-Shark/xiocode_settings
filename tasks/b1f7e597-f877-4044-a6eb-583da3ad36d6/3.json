@@ -1,8 +1,0 @@
-{
-  "id": "3",
-  "subject": "建立release和退役流程",
-  "description": "建立release manifest、退役规则、版本发布协议",
-  "status": "pending",
-  "blocks": [],
-  "blockedBy": []
-}

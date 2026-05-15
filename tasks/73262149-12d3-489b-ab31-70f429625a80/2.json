@@ -1,9 +1,0 @@
-{
-  "id": "2",
-  "subject": "Add L3 bugfix tasks for Go and Rust (fill dimension/language gaps)",
-  "description": "Create bugfix tasks for Go (need 2-3), Rust (need 2-3), and eventually TypeScript/Java. Each needs: buggy code, ground truth, hidden tests, reference solution, YAML task definition.",
-  "activeForm": "Adding L3 bugfix tasks for Go, Rust",
-  "status": "completed",
-  "blocks": [],
-  "blockedBy": []
-}

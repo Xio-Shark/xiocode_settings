@@ -1,8 +1,0 @@
-{
-  "id": "6",
-  "subject": "引入分层评分系统（六层隐藏测试）",
-  "description": "引入分层评分：Core/Edge/Regression/Performance/Security/Maintainability 六层隐藏测试组织",
-  "status": "pending",
-  "blocks": [],
-  "blockedBy": []
-}

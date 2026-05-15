@@ -2,7 +2,6 @@
 name: dispatch
 description: |
   Multi-Agent Pipeline 主调度员。纯调度角色，不负责具体实现，只按 Phase 顺序调用子 Agent 和脚本。
-tools: Read, Bash, mcp__exa__web_search_exa, mcp__exa__get_code_context_exa
 model: opus
 ---
 
