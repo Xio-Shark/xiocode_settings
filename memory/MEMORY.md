@@ -1,0 +1,5 @@
+- [User role & background](user_role.md) — Senior software engineer, Glue Coding philosophy, Trellis/RTK user
+- [Feedback: terse responses](feedback_terse.md) — No follow-up suggestions or trailing summaries
+- [Feedback: glue coding](feedback_glue_coding.md) — Prefer composing existing tools over custom logic
+- [Project: Claude config](project_claude_config.md) — xiocode_settings repo, optimization history, decision log
+- [Reference: resources](reference_resources.md) — Config repo, Trellis, tools, skills registry

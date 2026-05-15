@@ -10,11 +10,17 @@ xiocode_settings/
 ├── TRELLIS-WORKFLOW.md          # Multi-Agent Pipeline 工作流
 ├── settings.json                # 配置（model、hooks、env）
 ├── settings.local.json          # 权限白名单
+├── mcp.json                     # MCP 服务器配置
+│
 ├── skills/                      # 57 个 skills
 │   └── .system/
 │       └── SKILLS-REFERENCE.md  # Skill 路由表
 ├── agents/                      # 6 个 Trellis Agent 定义
-└── hooks/                       # Session + Tool hooks
+├── hooks/                       # Session + Tool hooks
+├── commands/                    # 自定义 slash 命令（19 个 Trellis 命令）
+├── external/                    # MCP bridge 脚本
+├── ccline/                      # 自定义状态栏（Rust 二进制 + 主题）
+└── memory/                      # AI 记忆系统
 ```
 
 ## CLAUDE.md 核心规则
@@ -47,6 +53,10 @@ cp /tmp/xiocode_settings/settings.local.json ~/.claude/
 cp -r /tmp/xiocode_settings/skills ~/.claude/
 cp -r /tmp/xiocode_settings/hooks ~/.claude/
 cp -r /tmp/xiocode_settings/agents ~/.claude/
+cp -r /tmp/xiocode_settings/commands ~/.claude/
+cp -r /tmp/xiocode_settings/external ~/.claude/
+cp -r /tmp/xiocode_settings/ccline ~/.claude/
+cp -r /tmp/xiocode_settings/memory ~/.claude/
 
 # 3. 设置环境变量（加到 ~/.zshrc）
 export ANTHROPIC_BASE_URL="http://127.0.0.1:15721"
